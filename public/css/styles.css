@@ -1,0 +1,29 @@
+.profile-image {
+	text-align: center;
+	height: 100px;
+    width: 100px;
+    display:block;
+}
+
+@media (max-width: 48em) {
+  .profile-image {
+  	margin-left:auto;
+  	margin-right:auto;
+  	height: 60px;
+    width: 60px;  	
+  }
+}
+
+#main-nav-vertical { display: block; }
+#main-nav-horizontal { display: none; }
+
+
+@media (max-width: 48em) {
+  #main-nav-vertical { display: none; }
+  #main-nav-horizontal { display: block; }
+}
+
+.sidebar-copyright {
+  margin-top: 1rem;
+  font-size: 0.5rem;
+}

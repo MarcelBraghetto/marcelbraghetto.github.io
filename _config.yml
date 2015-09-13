@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Marcel Braghetto
+tagline:          'My random coding stuff'
+description:      'My random coding stuff'
+url:              https://marcelbraghetto.github.io
+baseurl:          /
+
+author:
+  name:           'Marcel Braghetto'
+  url:            https://marcelbraghetto.github.io
+
+paginate:         5
+
+excerpt_separator: <!-- excerpt -->
