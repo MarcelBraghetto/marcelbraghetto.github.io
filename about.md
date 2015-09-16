@@ -15,7 +15,7 @@ Over the last few years I've focussed mostly on native mobile app development wh
 
 For years I've been meaning to get around to writing up the things I learn and discover to share with others but just never really got around to it :S
 
-I finally got the motivation to spend some time writing some posts and hopefully I can contine to grow this collection over time.
+I finally got the motivation to spend some time writing some posts and hopefully I can continue to grow this collection over time.
 
 If you'd like to say hi, feel free to visit me via [LinkedIn](https://www.linkedin.com/pub/marcel-braghetto/73/90b/133), and most of the posts here have corresponding example source code in my [GitHub](https://github.com/MarcelBraghetto) page.
 

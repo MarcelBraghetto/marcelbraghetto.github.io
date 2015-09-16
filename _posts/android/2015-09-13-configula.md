@@ -36,12 +36,12 @@ We are going to create a main application that has different behaviour in **debu
 **Debug**
 
 - Custom overridden manifest that includes a *ConfigulaActivity* which will receive deep linking intents from outside the app.
-- Implementation of a debug variant of the *Configula* class that knows how to save the properties passed in through the deep link and is queried in the *MainActivity*.
+- Implementation of a debug variant of the *AppConfig* class that knows how to save the properties passed in through the deep link and is queried in the *MainActivity*.
 
 **Release**
 
 - Default manifest for the main app - the *ConfigulaActivity* is **not** included.
-- Implementation of a release variant of the *Configula* class that always returns hard coded values when used in the *MainActivity*.
+- Implementation of a release variant of the *AppConfig* class that always returns hard coded values when used in the *MainActivity*.
 - Zero debug code / configuration compiled into the *release* build.
 
 ## 2. Basics
