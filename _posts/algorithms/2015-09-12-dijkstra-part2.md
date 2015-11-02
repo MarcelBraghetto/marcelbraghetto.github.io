@@ -10,6 +10,10 @@ category: "Algorithms"
 
 [Get the example project here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/DijkstraPart2)
 
+If you'd like to try it out on your device:
+
+[Download and install Treasure-Crab.apk](/files/dijkstra/Treasure-Crab.apk)
+
 This post continues on from my [Dijkstra's Algorithm - Part 1 post](/algorithms/2015/09/05/dijkstra-part1). In this part we will put together a basic Android app to visualize the pathfinding. Let's call the app **Treasure Crab**. The goals for the app are to:
 
 - Display a graph along with an *agent* who needs to travel the shortest distance to reach the *goal*. The *agent* for this demo will be a crab and the *goal* will be a treasure chest.
