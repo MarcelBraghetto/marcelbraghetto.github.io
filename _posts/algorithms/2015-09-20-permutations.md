@@ -346,7 +346,7 @@ public final class CharacterHashMapAlgorithm {
 
 In the trie algorithm, the characters in the search term are initially sorted and used to construct a trie. Then a *frame* is moved through the search data, and each *frame* of data is first sorted, then validated against the trie to identify if there is a match.
 
-Although the actual request to validate a character array within a *trie* is considerered to be O(1), unfortunately this algorithm still required each *frame* to be copied and sorted before querying the *trie*.
+Although the actual request to validate a character array within a *trie* is considerered to be O(k) where k is the length of the string to search for, unfortunately this algorithm still required each *frame* to be copied and sorted before querying the *trie*.
 
 A *trie* is fantastic when used for multiple search terms or when decoupled from this kind of scenario, but not so hot in this particular scenario - but not really the fault of the *trie* itself.
 
