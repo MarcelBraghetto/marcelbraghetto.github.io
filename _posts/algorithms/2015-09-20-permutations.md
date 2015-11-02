@@ -10,6 +10,10 @@ category: "Algorithms"
 
 [Get the example project here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/Permutations)
 
+If you'd like to try it out on your device:
+
+[Download and install Permutations-Playground.apk](/files/permutations/Permutations-Playground.apk)
+
 In my Internet travels, I came across a coding question that looks something like this:
 
 > **Find the number of permutations of string A in string B**
