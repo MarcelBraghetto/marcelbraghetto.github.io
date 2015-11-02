@@ -10,6 +10,11 @@ category: Android
 
 [Get the source for this example here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/Kaleidoscope)
 
+If you'd like to try it out on your device:
+
+1. [Download and install AIDL-Kaleidoscope-Remote.apk](/files/aidl/AIDL-Kaleidoscope-Remote.apk)
+2. [Download and install AIDL-Kaleidoscope-Local.apk](/files/aidl/AIDL-Kaleidoscope-Local.apk)
+
 I wanted to play around with [AIDL - Android Interface Definition Language](http://developer.android.com/guide/components/aidl.html) to test out how it can be used to communicate between two (or more I guess) Android processes at run time.
 
 I found that there is more than one way to do **Inter Process Communication (IPC)** on Android, but I wanted to focus on the scenario of two completely different APKs talking to each other, via a contract defined using **AIDL**.
