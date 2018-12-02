@@ -4,8 +4,6 @@ title: "AIDL - Kaleidescope"
 category: Android
 ---
 
-## AIDL - Kaleidoscope
-
 ![alt AIDL Kaleidoscope](/images/aidl/aidl.png)
 
 [Get the source for this example here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/Kaleidoscope)

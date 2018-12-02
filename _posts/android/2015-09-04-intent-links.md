@@ -4,8 +4,6 @@ title: "Launching apps from HTML links"
 category: Android
 ---
 
-## Launching apps from HTML links
-
 [Get the source for this example here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/DeepLinks)
 
 A number of blog posts in this site include sample code that I am writing into an Android app as kind of a kitchen sink sandbox app to demonstrate how the code runs.
@@ -24,7 +22,7 @@ Simply put, all that is needed is:
 
 Let's make a basic example app.
 
-### 1. Create an app and deep link activity
+#### 1. Create an app and deep link activity
 
 Create a new Android app, with the default *MainActivity* that gets generated for you. Then add a new activity that will be our deep linking entry point. I've called mine *DeepLinkActivity*.
 
@@ -53,7 +51,7 @@ public class DeepLinkActivity extends Activity {
 }
 ```
 
-### 2. Update the manifest for the deep link activity.
+#### 2. Update the manifest for the deep link activity.
 
 Next we need to add the new *DeepLinkActivity* to the manifest, along with some filters to allow it to be resolved when we want to trigger it.
 
@@ -82,7 +80,7 @@ Note that:
 - We are registering the scheme *deeplink*.
 - The *host* is defined so we can qualify our links.
 
-### 3. Tweak the MainActivity to do something
+#### 3. Tweak the MainActivity to do something
 
 In this example, we will simply take the default *MainActivity* and add a bit of extra code to examine the contents of the intent that was used to launch it.
 
@@ -120,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
 
 That's pretty much it for the app.
 
-### 4. Launching the app intent
+#### 4. Launching the app intent
 
 The next step is launching the app from somewhere else. There is some good information [here](https://developer.chrome.com/multidevice/android/intents) about launching from a web link.
 
@@ -142,6 +140,6 @@ Check our sample manifest to see how these properties align to allow the app to 
 
 If you have the example app installed you can [tap here to trigger a deep link](intent://io.github.marcelbraghetto.deeplinking/Hi%20from%20Marcel%27s%20blog!#Intent;scheme=deeplink;package=io.github.marcelbraghetto.deeplinking;S.browser_fallback_url=https%3A%2F%2Fio.github.marcelbraghetto;end) - only works if you are browsing on an Android device!
 
-### Wrap up
+#### Wrap up
 
 This was just a super simple example, but the concept is quite handy for surfacing app content via the web. You can also use *http* schemes and setup your intent filters to recognise particular url patterns and therefore appear in the list of suggested apps that can handle those particular urls (alongside your browser).

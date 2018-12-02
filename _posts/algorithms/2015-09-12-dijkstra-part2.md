@@ -4,8 +4,6 @@ title: "Dijkstra's Algorithm - Part 2"
 category: "Algorithms"
 ---
 
-## Dijkstra's Algorithm - Part 2: Treasure Crab
-
 ![alt Treasure crab again!](/images/dijkstra/crab.png)
 
 [Get the example project here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/DijkstraPart2)
@@ -28,13 +26,13 @@ This post continues on from my [Dijkstra's Algorithm - Part 1 post](/algorithms/
 
 ![alt Treasure crab!](/images/dijkstra/treasure_crab.jpg)
 
-### 1. Setup
+#### 1. Setup
 
 Most of the code from part 1 can be used as the base for this. I won't list all the code again, but will point out the main differences for the new app.
 
 There will also be a number of code classes that I won't display in the post, but you can of course download all the source code to see it yourself.
 
-### 2. Overall differences
+#### 2. Overall differences
 
 The overall differences from our original Dijkstra's algorithm example are:
 
@@ -53,7 +51,7 @@ The overall differences from our original Dijkstra's algorithm example are:
   - *Deserialize* a string representation of the graph data.
   - *Serialize* the graph to a string representation.
 
-### 2. Node model changes
+#### 2. Node model changes
 
 The *node* will now need to track its position in the world and provide a method for updating it.
 
@@ -109,7 +107,7 @@ public class Node {
 }
 ```
 
-### 3. Edge model changes
+#### 3. Edge model changes
 
 The *edge* will now be responsible for calculating its own weight and will take a reference to its origin as well as its target.
 
@@ -214,7 +212,7 @@ public class MathUtils {
 }
 ```
 
-### 4. Actors - Crab and Treasure Chest
+#### 4. Actors - Crab and Treasure Chest
 
 Both the **Crab** and the **Treasure Chest** are *actors* in our world, and have some common characteristics. An *actor* will know its position in the world and how to update itself.
 
@@ -366,7 +364,7 @@ public class Crab extends Actor {
 }
 ```
 
-### 5. Custom Android View
+#### 5. Custom Android View
 
 A custom Android view is necessary to draw our graph and actors onto the screen. It will hold a canvas and issue drawing commands to it. In order for the rendering view to be called from the graph structure, a glue interface provides the contract such that the graph can abstractly *render* itself, without knowing the details of how to draw to the screen.
 
@@ -601,7 +599,7 @@ public class DemoCanvasView extends View {
 }
 ```
 
-### 6. Graph changes
+#### 6. Graph changes
 
 The *graph* class itself probably has the most changes in this example compared to my earlier post.
 
@@ -1004,7 +1002,7 @@ public class Graph {
 }
 ```
 
-### 7. Wiring it all up
+#### 7. Wiring it all up
 
 Whoa that was a massive wall of text... hopefully you are still hanging in there! The last part is to wire all this together.
 
@@ -1017,7 +1015,7 @@ The host Android activity for this example will take the following actions:
 
 I won't list the code for the activity here, but check the **MainActivity** class in the Github repo.
 
-### 8. Further improvements
+#### 8. Further improvements
 
 This has just been a simple example of seeing the pathfinding algorithm in action, there are probably a number of optimizations and refinements that could be included to make it better.
 

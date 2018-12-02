@@ -4,8 +4,6 @@ title: "Permutations playground"
 category: "Algorithms"
 ---
 
-## Permutations playground
-
 ![alt Mutant](/images/permutations/mutant.png)
 
 [Get the example project here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/Permutations)

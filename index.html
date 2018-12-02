@@ -4,15 +4,22 @@ title: Home
 ---
 
 <div class="posts">
+  {% assign count = '0' %}
   {% for post in paginator.posts %}
+  {% capture count %}{{ count | plus: '1' }}{% endcapture %}
+  {% if count > '1' %}
+  <hr/>
+  {% endif %}
+
   <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
+    <h3 class="post-title">
         {{ post.category }} / {{ post.title }}
-      </a>
-    </h1>
+    </h3>
 
     <span class="post-date">{{ site.author.name }} {{ post.date | date_to_string }}</span>
+    <p>
+      <a href="{{ post.url }}">&gt;&gt;&gt; Read full article</a>
+    </p>    
 
     {{ post.excerpt }}
   </div>

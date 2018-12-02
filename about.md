@@ -3,8 +3,6 @@ layout: page
 title: About
 ---
 
-## About
-
 Hi there! My name is Marcel and this is my tiny corner of the Internet. There isn't much here at the moment, but I'm working on it!
 
 I've been writing software since I got my Commodore 128 *many* years ago (yes the 128 had twice the amount of RAM as the Commodore 64) using the [PET BASIC](https://en.wikipedia.org/wiki/Commodore_BASIC) programming language.

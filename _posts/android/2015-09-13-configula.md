@@ -4,8 +4,6 @@ title: "Configuration Launching"
 category: Android
 ---
 
-## Configuration Launching - Configula
-
 ![alt Configula!](/images/configula/configula.jpg)
 
 [Get the source for this example here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/Configula)

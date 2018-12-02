@@ -347,9 +347,10 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
   color: #9a9a9a;
+  font-size: 85%;
 }
 
 /* Related posts */

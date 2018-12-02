@@ -4,8 +4,6 @@ title: "Dijkstra's Algorithm - Part 1"
 category: "Algorithms"
 ---
 
-## Dijkstra's Algorithm - Part 1
-
 ![alt Directed weighted graph](/images/dijkstra/weighted_graph.png)
 
 [Get the example project here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/DijkstraPart1)
@@ -21,7 +19,7 @@ I'll walk through some basic building blocks for making a graph in general as we
 
 <!-- excerpt -->
 
-### 1. Basic models
+#### 1. Basic models
 
 We will need a few data models in order to construct the graph system. In particular:
 
