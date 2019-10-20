@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Dijkstra's Algorithm - Part 1"
-category: "Algorithms"
+category: "algorithms"
 ---
 
 ![alt Directed weighted graph](/images/dijkstra/weighted_graph.png)

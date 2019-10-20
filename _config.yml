@@ -1,9 +1,11 @@
 # Dependencies
 plugins:            [jekyll-paginate]
-markdown:           redcarpet
-redcarpet:
-  extensions:       ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
-highlighter:        pygments
+markdown:           kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+highlighter:        rouge
 
 # Permalinks
 permalink:          pretty
@@ -18,6 +20,7 @@ author:
   name:             'Marcel Braghetto'
   url:              https://marcelbraghetto.github.io
 
-paginate:           100
+paginate:           1000
 
 excerpt_separator:  <!-- excerpt -->
+future: true

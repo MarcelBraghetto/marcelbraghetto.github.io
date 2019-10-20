@@ -6,5 +6,10 @@ layout: default
 	<h3 class="post-title">
 		{{ page.category }} / {{ page.title }}
 	</h3>
+
+	<span class="post-date">{{ site.author.name }} {{ page.date | date: "%-d %B %Y" }}</span>
+	
 	{{ content }}
+
+	<p class="sidebar-copyright">&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}. All rights reserved.</p>
 </div>

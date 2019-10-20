@@ -32,16 +32,17 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: Menlo, Monaco, 'Courier New', monospace;
+  /* font-family: "PT Sans", Helvetica, Arial, sans-serif; */
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -58,6 +59,7 @@ html {
   padding: 1rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
+  font-size: 11px;
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -67,19 +69,20 @@ html {
     bottom: 0;
     width: 18rem;
     text-align: left;
+    overflow: auto;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  color: #45A9F9;
 }
 
 /* About section */
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
+  font-family: Menlo, Monaco, "Courier New", monospace !important;
   font-size: 3.25rem;
 }
 
@@ -95,9 +98,7 @@ a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
-.sidebar-nav-item.active {
-  font-weight: bold;
-}
+.sidebar-nav-item.active {}
 
 /* Sticky sidebar
  *
@@ -130,7 +131,6 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    /*max-width: 38rem;*/
     margin-left: 20rem;
     margin-right: 2rem;
   }
@@ -241,4 +241,13 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Blue */
+.theme-base-dark .sidebar {
+  background-color: #2a2c2d;
+}
+.theme-base-dark .content a,
+.theme-base-dark .related-posts li a:hover {
+  color: #45A9F9;
 }

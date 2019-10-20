@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Dijkstra's Algorithm - Part 2"
-category: "Algorithms"
+category: "algorithms"
 ---
 
 ![alt Treasure crab again!](/images/dijkstra/crab.png)

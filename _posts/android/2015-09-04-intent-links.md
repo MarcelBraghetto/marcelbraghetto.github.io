@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Launching apps from HTML links"
-category: Android
+category: android
 ---
 
 [Get the source for this example here](https://github.com/MarcelBraghetto/BlogDemos/tree/master/DeepLinks)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Configuration Launching"
-category: Android
+category: android
 ---
 
 ![alt Configula!](/images/configula/configula.jpg)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Permutations playground"
-category: "Algorithms"
+category: "algorithms"
 ---
 
 ![alt Mutant](/images/permutations/mutant.png)
@@ -14,11 +14,9 @@ If you'd like to try it out on your device:
 
 In my Internet travels, I came across a coding question that looks something like this:
 
-> **Find the number of permutations of string A in string B**
-
-> - **String A (search term): bcba**
-
-> - **String B (search data): babcabbacaabcbabcacbb**
+**Find the number of permutations of string A in string B**
+- **String A (search term): bcba**
+- **String B (search data): babcabbacaabcbabcacbb**
 
 The idea is that the characters in the *search term* are compared in every permutation to the characters in the *search data* to identify how many instances can be found.
 

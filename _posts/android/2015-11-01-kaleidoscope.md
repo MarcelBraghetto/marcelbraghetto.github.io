@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "AIDL - Kaleidescope"
-category: Android
+category: android
 ---
 
 ![alt AIDL Kaleidoscope](/images/aidl/aidl.png)

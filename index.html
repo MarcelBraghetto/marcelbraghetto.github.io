@@ -16,7 +16,8 @@ title: Home
         {{ post.category }} / {{ post.title }}
     </h3>
 
-    <span class="post-date">{{ site.author.name }} {{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ site.author.name }} {{ post.date | date: "%-d %B %Y" }}</span>
+
     <p>
       <a href="{{ post.url }}">&gt;&gt;&gt; Read full article</a>
     </p>    
