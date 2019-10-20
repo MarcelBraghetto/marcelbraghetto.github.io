@@ -1,4 +1,4 @@
-To view this site locally:
+Viewing this site locally
 
 Follow the instructions here: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
